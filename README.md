@@ -58,14 +58,16 @@ pip install opencv-python mediapipe pyttsx3 numpy
 python rps_game.py
 ```
 
-##🧠 How It Works
+## 🧠 How It Works
+
 **MediaPipe tracks hand landmarks and determines if the hand gesture matches a predefined Rock, Paper, or Scissors pose**.
 
 **The computer randomly picks a move**.
 
 **Results are displayed on screen with visual feedback, score is updated, and audio feedback announces the winner of each round**.
 
-##🎓 Learning Outcome
+## 🎓 Learning Outcome
+
 Hands-on experience with real-time computer vision
 
 Integration of gesture recognition in interactive applications
