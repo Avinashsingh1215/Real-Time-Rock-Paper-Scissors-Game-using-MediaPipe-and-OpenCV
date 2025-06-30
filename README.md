@@ -29,11 +29,7 @@ A fun and interactive real-time **Rock-Paper-Scissors** game that uses **MediaPi
 ## 📺 Demo
 
 Watch the game in action!  
-*(Insert a GIF or link to a demo video here)*
-
-[▶️ Click here to watch the demo video](https://your-demo-link.com)  
-or  
-![Demo GIF](images/demo.gif)
+*Inside the Files Section there is a demo video present click on that to see the working of this project *
 
 ---
 
@@ -41,7 +37,7 @@ or
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/real-time-rock-paper-scissors.git
+git clone https://github.com/Avinashsingh1215/real-time-rock-paper-scissors.git
 cd real-time-rock-paper-scissors
 ```
 
@@ -49,10 +45,33 @@ cd real-time-rock-paper-scissors
    
 Make sure you have Python 3 installed.
 ```bash
+
 pip install -r requirements.txt
+```
 If requirements.txt is not available, install manually:
+
+```bash
 pip install opencv-python mediapipe pyttsx3 numpy
 ```
 3. Run the Game
 ```bash
 python rps_game.py
+```
+
+##🧠 How It Works
+**MediaPipe tracks hand landmarks and determines if the hand gesture matches a predefined Rock, Paper, or Scissors pose**.
+
+**The computer randomly picks a move**.
+
+**Results are displayed on screen with visual feedback, score is updated, and audio feedback announces the winner of each round**.
+
+##🎓 Learning Outcome
+Hands-on experience with real-time computer vision
+
+Integration of gesture recognition in interactive applications
+
+Use of speech synthesis and UX design in games
+
+Deep understanding of MediaPipe’s Hand Tracking module
+
+
