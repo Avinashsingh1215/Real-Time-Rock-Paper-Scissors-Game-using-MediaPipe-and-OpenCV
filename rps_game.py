@@ -24,7 +24,7 @@ mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands(max_num_hands=2, min_detection_confidence=0.7)
 
-# Gesture detection function (improved)
+# Gesture detection function.
 def get_hand_gesture(landmarks):
     def is_finger_open(tip_id, pip_id):
         return landmarks[tip_id].y < landmarks[pip_id].y - 0.03
