@@ -43,3 +43,16 @@ or
 ```bash
 git clone https://github.com/your-username/real-time-rock-paper-scissors.git
 cd real-time-rock-paper-scissors
+```
+
+2. Install Dependencies
+   
+Make sure you have Python 3 installed.
+```bash
+pip install -r requirements.txt
+If requirements.txt is not available, install manually:
+pip install opencv-python mediapipe pyttsx3 numpy
+```
+3. Run the Game
+```bash
+python rps_game.py
